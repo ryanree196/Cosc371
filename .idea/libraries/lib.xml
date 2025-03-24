@@ -2,7 +2,6 @@
   <library name="lib">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/controlsfx-8.20.8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-6.0.4-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
