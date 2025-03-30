@@ -40,7 +40,7 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="346.0" style="-fx-background-color: #ff4565;" text="Services" textFill="WHITE" GridPane.columnSpan="2">
+                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="346.0" style="-fx-background-color: #0076bc;" text="Services" textFill="WHITE" GridPane.columnSpan="2">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
@@ -72,7 +72,7 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="346.0" style="-fx-background-color: #ff4565;" text="Search  Services" textFill="WHITE" GridPane.columnSpan="2">
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="346.0" style="-fx-background-color: #0076bc;" text="Search  Services" textFill="WHITE" GridPane.columnSpan="2">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font>

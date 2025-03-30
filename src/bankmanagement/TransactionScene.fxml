@@ -50,7 +50,7 @@
                   <ComboBox fx:id="ctType" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                   <Label alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="179.0" text="Amount :" GridPane.rowIndex="5" />
                   <TextField fx:id="tAmount" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                  <Label alignment="CENTER" prefHeight="28.0" prefWidth="367.0" style="-fx-background-color: #ff4565;" text="Transaction" textFill="WHITE" GridPane.columnSpan="2">
+                  <Label alignment="CENTER" prefHeight="28.0" prefWidth="367.0" style="-fx-background-color: #0076bc;" text="Transaction" textFill="WHITE" GridPane.columnSpan="2">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
@@ -73,7 +73,7 @@
                       <RowConstraints maxHeight="108.0" minHeight="10.0" prefHeight="108.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="346.0" style="-fx-background-color: #ff4565;" text="Search Transactions" textFill="WHITE" GridPane.columnSpan="2">
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="346.0" style="-fx-background-color: #0076bc;" text="Search Transactions" textFill="WHITE" GridPane.columnSpan="2">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font>
