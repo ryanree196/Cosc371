@@ -46,9 +46,9 @@
                </LinearGradient>
             </textFill>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="260.0" prefHeight="139.0" prefWidth="321.0" rotate="-56.3" text="BANK" textFill="#f4f4f8" underline="true" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="109.0">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="260.0" prefHeight="139.0" prefWidth="321.0" rotate="-50.3" text="COMPEERS" textFill="#f4f4f8" underline="true" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="109.0">
                 <font>
-                    <Font name="System Bold Italic" size="72.0" />
+                    <Font name="System Bold Italic" size="55.0" />
                 </font>
                 <effect>
                     <InnerShadow />
@@ -92,7 +92,7 @@
         </padding>
     </Hyperlink>
     <Label fx:id="errorLabel" alignment="CENTER" layoutX="522.0" layoutY="176.0" prefHeight="60.0" prefWidth="276.0" textFill="#fc0d0d" wrapText="true" AnchorPane.rightAnchor="5.0" />
-    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="528.0" layoutY="38.0" prefHeight="89.0" prefWidth="220.0" text="LOGIN" textFill="#111af7" AnchorPane.rightAnchor="2.0">
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="528.0" layoutY="38.0" prefHeight="89.0" prefWidth="220.0" text="WELCOME" textFill="#111af7" AnchorPane.rightAnchor="2.0">
         <font>
             <Font name="System Bold Italic" size="36.0" />
         </font>
