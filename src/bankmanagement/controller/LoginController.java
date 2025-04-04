@@ -66,6 +66,7 @@ public class LoginController {
         Stage stage = (Stage) cancelButton.getScene().getWindow();
         stage.close();
     }
+    
 
     @FXML
     void loginOnAction(ActionEvent event) {
@@ -81,6 +82,22 @@ public class LoginController {
         KeyCombination keyCombination = new KeyCodeCombination(KeyCode.E, KeyCombination.SHIFT_DOWN);
         loginButton.getScene().getAccelerators().put(keyCombination, this::navigateToDashboard);
     }
+    @FXML
+void forgotPasswordOnAction(ActionEvent event) {
+    try {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../ForgotPassword.fxml"));
+        Scene forgotPasswordScene = new Scene(fxmlLoader.load());
+        Stage forgotPasswordStage = new Stage();
+        forgotPasswordStage.setScene(forgotPasswordScene);
+        forgotPasswordStage.initStyle(StageStyle.UTILITY);
+        forgotPasswordStage.setTitle("Reset Password");
+        forgotPasswordStage.show();
+    } catch (Exception e) {
+        e.printStackTrace();
+        errorLabel.setText("Failed to open Forgot Password window.");
+    }
+}
+
 
     private void checkLoginCredentials(String usernameInput, String password) {
         String verifyLogin = "SELECT email, password FROM users WHERE email = ?";
