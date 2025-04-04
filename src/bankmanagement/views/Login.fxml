@@ -77,19 +77,7 @@
     <Button fx:id="loginButton" layoutX="617.0" layoutY="359.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="43.0" prefWidth="142.0" text="Login" AnchorPane.rightAnchor="4.0" />
     <Button fx:id="cancelButton" layoutX="424.0" layoutY="359.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="43.0" prefWidth="145.0" text="Close" AnchorPane.rightAnchor="181.0" />
     <Hyperlink fx:id="forgotPasswordHyperLink" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="513.0" layoutY="422.0" prefHeight="23.0" prefWidth="142.0" text="forgot password?" underline="true" AnchorPane.rightAnchor="95.0">
-        <padding>
-            <Insets right="5.0" />
-        </padding>
-    </Hyperlink>
-    <Hyperlink fx:id="signUpHyperlink" alignment="CENTER" focusTraversable="false" layoutX="638.0" layoutY="462.0" prefHeight="23.0" prefWidth="87.0" text="Sign Up?" underline="true">
-        <padding>
-            <Insets right="5.0" />
-        </padding>
-    </Hyperlink>
-    <Hyperlink fx:id="helpHyperlink" alignment="CENTER" focusTraversable="false" layoutX="441.0" layoutY="462.0" prefHeight="23.0" prefWidth="87.0" text="Help?" underline="true" AnchorPane.rightAnchor="222.0">
-        <padding>
-            <Insets right="5.0" />
-        </padding>
+        
     </Hyperlink>
     <Label fx:id="errorLabel" alignment="CENTER" layoutX="522.0" layoutY="176.0" prefHeight="60.0" prefWidth="276.0" textFill="#fc0d0d" wrapText="true" AnchorPane.rightAnchor="5.0" />
     <Label alignment="CENTER" contentDisplay="CENTER" layoutX="528.0" layoutY="38.0" prefHeight="89.0" prefWidth="220.0" text="WELCOME" textFill="#111af7" AnchorPane.rightAnchor="2.0">
