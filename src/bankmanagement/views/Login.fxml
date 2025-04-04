@@ -58,7 +58,7 @@
         </children>
     </AnchorPane>
     <ImageView fx:id="lockIcon" fitHeight="60.0" fitWidth="64.0" layoutX="572.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" />
-    <TextField fx:id="usernameTextField" layoutX="591.0" layoutY="240.0" prefHeight="40.0" prefWidth="249.0" promptText="larrykin@gmail.com" AnchorPane.rightAnchor="5.0">
+    <TextField fx:id="usernameTextField" layoutX="591.0" layoutY="240.0" prefHeight="40.0" prefWidth="249.0" promptText="ryanree@gmail.com" AnchorPane.rightAnchor="5.0">
         <font>
             <Font size="11.0" />
         </font>
