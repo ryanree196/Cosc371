@@ -11,11 +11,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 public class BankManagement extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("BankMain.fxml"));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("views/Login.fxml")));
         
         Scene scene = new Scene(root);
         
