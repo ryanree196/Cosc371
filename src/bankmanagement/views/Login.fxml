@@ -76,13 +76,9 @@
     </Label>
     <Button fx:id="loginButton" layoutX="617.0" layoutY="359.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="43.0" prefWidth="142.0" text="Login" AnchorPane.rightAnchor="4.0" />
     <Button fx:id="cancelButton" layoutX="424.0" layoutY="359.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="43.0" prefWidth="145.0" text="Close" AnchorPane.rightAnchor="181.0" />
-    <Hyperlink fx:id="forgotPasswordHyperLink"
-           layoutX="513.0" layoutY="422.0"
-           prefHeight="23.0" prefWidth="142.0"
-           text="Forgot Password?"
-           underline="true"
-           onAction="#forgotPasswordOnAction"
-           AnchorPane.rightAnchor="95.0"/>
+    <Hyperlink fx:id="forgotPasswordHyperLink" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="513.0" layoutY="422.0" prefHeight="23.0" prefWidth="142.0" text="forgot password?" underline="true" AnchorPane.rightAnchor="95.0">
+ <Hyperlink fx:id="forgotPasswordHyperLink" onAction="#forgotPasswordOnAction" text="Forgot Password?" />
+
 
     </Hyperlink>
     <Label fx:id="errorLabel" alignment="CENTER" layoutX="522.0" layoutY="176.0" prefHeight="60.0" prefWidth="276.0" textFill="#fc0d0d" wrapText="true" AnchorPane.rightAnchor="5.0" />
