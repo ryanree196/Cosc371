@@ -53,8 +53,6 @@ public class AccountHolderSceneController implements Initializable {
     @FXML
     private TextField cAddress;
     @FXML
-    private TextField cAdhaarId;
-    @FXML
     private ComboBox<String> cGenderCombo;
     @FXML
     private ComboBox<String> cBranch;
@@ -75,7 +73,7 @@ public class AccountHolderSceneController implements Initializable {
     String branch = ("");
     LocalDate dob = null;
     double balance = 0;
-    String aadhar = "";
+   
     
      ObservableList<String> branchList = FXCollections.observableArrayList();
     DisplayDatabase accountData = new DisplayDatabase();
