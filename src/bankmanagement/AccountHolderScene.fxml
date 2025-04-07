@@ -52,10 +52,9 @@
                   <Label alignment="CENTER_RIGHT" prefHeight="112.0" prefWidth="241.0" text="Address :" textFill="WHITE" GridPane.rowIndex="8" />
                   <Label alignment="CENTER_RIGHT" prefHeight="112.0" prefWidth="241.0" text="Date of Birth :" textFill="WHITE" GridPane.rowIndex="6" />
                   <Label alignment="CENTER_RIGHT" prefHeight="112.0" prefWidth="241.0" text="Branch Code:" textFill="WHITE" GridPane.rowIndex="7" />
-                  <Label alignment="CENTER_RIGHT" prefHeight="112.0" prefWidth="241.0" text="Adhaar id :" textFill="WHITE" GridPane.rowIndex="5" />
                   <TextField fx:id="cName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <TextField fx:id="cAddress" prefHeight="66.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="8" GridPane.rowSpan="2" />
-                  <TextField fx:id="cAdhaarId" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  
                   <ComboBox fx:id="cGenderCombo" prefHeight="25.0" prefWidth="74.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                   <ComboBox fx:id="cBranch" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                   <Button fx:id="addCBtn" mnemonicParsing="false" onAction="#addCustomer" prefHeight="86.0" prefWidth="183.0" text="Create Account" GridPane.columnIndex="1" GridPane.rowIndex="10" />
