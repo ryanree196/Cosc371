@@ -157,7 +157,7 @@ public class AccountHolderSceneController implements Initializable {
             "'"+gender+"',\n" +
             "'"+dob+"',\n" +
             "'"+address+"',\n" +
-            "'"+aadhar+"',\n" +
+        
            
             "'"+balance+"');";                    
                    
